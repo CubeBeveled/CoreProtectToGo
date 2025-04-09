@@ -39,4 +39,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: CoreProtectToGo
-          path: CoreProtect/target/*.jar
+          path: CoreProtect/target/CoreProtect-*.jar
