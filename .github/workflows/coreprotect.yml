@@ -6,9 +6,9 @@ name: Build Folia
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
   schedule:
     - cron: '0 0 * * *'
 
@@ -32,11 +32,11 @@ jobs:
           java-version: '21'
 
       # Runs a set of commands using the runners shell
-      - name: 'Build Folia .jar'
+      - name: 'Build CoreProtect .jar'
         run: |
           sh build.sh
 
       - uses: actions/upload-artifact@v4
         with:
-          name: FoliaToGo
-          path: Folia/build/libs/*.jar
+          name: CoreProtectToGo
+          path: CoreProtect/target/*.jar
