@@ -3,9 +3,9 @@
 # 🥡🤖 CoreProtect To Go
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/CubeBeveled/coreprotecttogo/coreprotect.yml?style=for-the-badge&logo=githubactions&label=BUILDS&labelColor=rgb(55,%2055,%2055))
  
-This repo has automated, nightly builds of the [Folia](https://github.com/PaperMC/Folia) server for Minecraft so that you don't have to build it yourself. 
+This repo has automated, nightly builds of [CoreProtect](https://github.com/PlayPro/CoreProtect) server for Minecraft so that you don't have to build it yourself. 
 
-Every midnight UTC, GitHub Actions runs [the build script](https://github.com/CubeBeveled/CoreProtectToGoblob/main/build.sh) and uploads the plugin .jar to the [Actions](https://github.com/CubeBeveled/CoreProtectToGoactions) area.
+Every midnight UTC, GitHub Actions runs [the build script](https://github.com/CubeBeveled/CoreProtectToGoblob/main/build.sh) and uploads the plugin .jar to the [Actions](https://github.com/CubeBeveled/CoreProtectToGo/actions) area.
 
 These builds may or may not be up-to-date with the latest CoreProtect commits because they run at a certain time every day.
 
